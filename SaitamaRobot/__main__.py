@@ -197,7 +197,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/zero2botsupport"),
                          InlineKeyboardButton(
                              text="🧭 Zero Two Updates",
-                             url="https://t.me/@zero2updates"),              
+                             url="https://t.me/zero2updates"),              
                     ],
                      [
                         InlineKeyboardButton(
@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                       [
                         InlineKeyboardButton(
                              text="Help & Commands",
-                             url="https://t.me/@Zero_2_Robot?start=help")      
+                             url="https://t.me/Zero_2_Robot?start=help")      
                     ]]))
     else:
         update.effective_message.reply_video(
