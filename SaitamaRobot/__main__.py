@@ -52,20 +52,20 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey {}, I am {}!* 
-*A multipurpose group management bot, themed from* [Steins;Gate](https://anilist.co/anime/9253)!
+*A multipurpose group management bot,I can help you in managing your Groups Themed from* [Darling In the Franxx]!
 
 """
 
 HELP_STRINGS = """
-💝 [Kurisu](https://telegra.ph/file/1f6e348461d5a7eed0df7.gif) 💝 comes with :-
+ [Zero Two](https://telegra.ph/file/0b930645486429d762231.gif) 💗 comes with :-
 *AI Chatbot*, *Anime*, *Music*, *Notes*, *Filters* and *NSFW* functions!
 • __All commands can either be used with__ `/` __or__ `!`.
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KURISU_IMG = "https://telegra.ph/file/083b9d84ba26180dcbffb.gif"
-KURISUIMGSTART = "https://telegra.ph/file/bd01a439fefb53170b36f.gif"
+KURISU_IMG = "https://telegra.ph/file/0b930645486429d762231.gif"
+KURISUIMGSTART = "https://telegra.ph/file/0b930645486429d762231.gif"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -187,27 +187,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurisu to your group",
+                            text="☑️ Add Zero Two to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Kurisu Support",
+                             text="🚑 Zero Two Support",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="🧭 Steins Updates",
-                             url="https://t.me/steinsupdates"),              
+                             text="🧭 Zero Two Updates",
+                             url="https://t.me/Anime_Season"),              
                     ],
                      [
                         InlineKeyboardButton(
                              text="🔘 Getting Started Guide",
-                             url="https://t.me/Steinsupdates/7")                    
+                             url="https://t.me/")                    
                     ],
                      [
                         InlineKeyboardButton(
-                             text="🀄️ IAS - Anime Chatroom 🀄️",
-                             url="https://t.me/animechatsofficialgrp")                    
+                             text="📌 Anime Heaven - Anime Chatroom 📌",
+                             url="https://t.me/animeheavenhell")                    
                     ],                     
                       [
                         InlineKeyboardButton(
