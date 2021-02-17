@@ -65,7 +65,7 @@ HELP_STRINGS = """
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 KURISU_IMG = "https://telegra.ph/file/0b930645486429d762231.gif"
-KURISUIMGSTART = "https://telegra.ph/file/0b930645486429d762231.gif"
+KURISUIMGSTART = "https://telegra.ph/file/c2dcfa1a945502566db0f.gif"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -206,12 +206,12 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                         InlineKeyboardButton(
-                             text="📌 Anime Heaven - Anime Chatroom 📌",
-                             url="https://t.me/animeheavenhell")                    
+                             text="🔩 Logs Channel",
+                             url="https://t.me/zero2logs")                    
                     ],                     
                       [
                         InlineKeyboardButton(
-                             text="Help & Commands",
+                             text="💫Commands/Help💫",
                              url="https://t.me/Zero_2_Robot?start=help")      
                     ]]))
     else:
